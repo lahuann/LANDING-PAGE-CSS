@@ -143,7 +143,7 @@ color: #fff;
 .about__main{
     padding-top: 80px;
     display: grid;
-    width: 90%;
+    width: 100%;
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
