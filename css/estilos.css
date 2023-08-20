@@ -265,7 +265,7 @@ padding: 5px;
 
 .questions__padding{
     padding: 0;
-    transition: padding .2s;
+    transition: padding .3s;
     border: 1px solid;
     border-radius: 6px;
 
@@ -313,6 +313,7 @@ justify-content: space-between;
 .questions__show{
     text-align: left;
     height: 0;
+    transition: height .3s;
 }
 
 .questions__img{
