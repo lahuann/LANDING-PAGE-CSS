@@ -17,8 +17,6 @@
         value = Number(currentTestimony);
         value += add;
 
-        console.log(value);
-
         sliders[Number(currentTestimony) - 1].classList.remove('testimony__body--show');
 
         if (value === sliders.length + 1 || value === 0) {
