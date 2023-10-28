@@ -524,6 +524,39 @@ color: #fff;
 
     }
 }
+
+.container__yrurtia{
+    width: 100%;
+    min-height: 50hv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+    background-color: brown;
+}
+
+.galeria__yrurtia{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.galeria__yrurtia img{
+    width: 100%;
+}
+
+#h2yrurtia{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+    background-color: brown;
+}
+
+.h1cursiva{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+
 /* Media queries */
 
 @media (max-width:800px){
