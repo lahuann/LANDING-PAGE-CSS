@@ -557,6 +557,10 @@ color: #fff;
     font-size: 100px;
 }
 
+.h2cursiva{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 45px;
+}
 /* Media queries */
 
 @media (max-width:800px){
