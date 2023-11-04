@@ -114,7 +114,7 @@ color: #fff;
 
 .cta{
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #890000;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -127,7 +127,7 @@ color: #fff;
 /*aca esta lo q cambie*/
 
 .container.about{
-    background-color: #f2e969;
+    background-color: #E09453;
     width: 100%;
 }
 
@@ -174,7 +174,7 @@ color: #fff;
 /*knowledge*/
 
 .knowledge{
-    background-color: #efb1fa;
+    background-color: #D1711F;
         overflow: hidden;
 }
 
@@ -197,14 +197,14 @@ color: #fff;
 }
 
 .knowledge__paragraph{
-    line-height: 1.7;
-    margin-bottom: 15px;
+
+    margin-bottom: 5px;
 }
 
 /*testimony*/
 
 .testimony{
-    background-color: #f1c369 ;
+    background-color: #A34828 ;
 }
 
 .testimony__container{
@@ -259,10 +259,15 @@ padding: 5px;
     cursor: pointer;
 }
 
+#titulocarrusel{
+    text-align: center;
+    padding: 40px;
+}
+
 /* questions*/ 
 
 .questions.container{
-    background-color: #ff9553;
+    background-color: #e09453;
     width: 100%;
     padding: 10px;
 }
@@ -345,7 +350,7 @@ justify-content: space-between;
 /*footer*/
 
 .footer{
-    background-color: #b7285f;
+    background-color: #d4ba66    ;
 }
 
 .footer__title{
@@ -360,7 +365,7 @@ color: #fff;
 
 .footer__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
@@ -427,6 +432,7 @@ color: #fff;
 .footer__img{
     width: 30px;
 }
+
 /*
 .contenedor__galeria{
     background-color: brown;
@@ -545,6 +551,10 @@ color: #fff;
     width: 100%;
 }
 
+.galeria__yrurtia video{
+    width: 100%;
+}
+
 #h2yrurtia{
     text-align: center;
     font-size: 55px;
@@ -561,6 +571,20 @@ color: #fff;
     font-family: 'Dancing Script', cursive; 
     font-size: 45px;
 }
+
+.videos{
+    height: 400px;
+    width: 400px;
+}
+
+.vidios{
+    display: flex;
+
+
+    flex-direction: row;
+    
+}
+
 /* Media queries */
 
 @media (max-width:800px){
@@ -649,7 +673,7 @@ color: #fff;
 
     .footer__container{
         flex-wrap: wrap;
-
+        padding: 30px;
     }
 
     .nav--footer{
@@ -667,7 +691,7 @@ color: #fff;
     .footer__form{
         width: 100%;
         justify-content: space-evenly;
-
+        
     }
 
     .footer__input{
